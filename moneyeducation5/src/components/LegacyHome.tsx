@@ -9,7 +9,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Progress } from "@/components/ui/progress"
 import { getTitles, getPoints } from './rewardSystem'
 
-export default function LegacyHome() {
+export function LegacyHome() {
   const [currentTitle, setCurrentTitle] = useState({ name: '', level: 0 })
   const [points, setPoints] = useState(0)
   const [progress, setProgress] = useState(0)
