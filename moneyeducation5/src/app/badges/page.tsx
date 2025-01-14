@@ -7,7 +7,8 @@ import { Award, ArrowLeft } from 'lucide-react'
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { getBadges, getEarnedBadges, getPoints, getCurrentTitle } from '../rewardSystem'
+//import { getBadges, getEarnedBadges, getPoints, getCurrentTitle } from '../rewardSystem'
+import { getBadges, getEarnedBadges, getPoints, getCurrentTitle } from '@/components/rewardSystem';
 
 export default function BadgesPage() {
   const [earnedBadges, setEarnedBadges] = useState(getEarnedBadges())
